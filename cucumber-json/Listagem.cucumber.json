@@ -1,0 +1,93 @@
+[
+  {
+    "description": "    Como usuário desejo ver a listagem\n    Para visualizar os dados de cadastro",
+    "keyword": "Feature",
+    "name": "Listagem",
+    "line": 1,
+    "id": "listagem",
+    "tags": [],
+    "uri": "Listagem.feature",
+    "elements": [
+      {
+        "id": "listagem;listagem-sem-registro",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Listagem sem Registro",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Que o site não possui registro",
+            "result": {
+              "status": "passed",
+              "duration": 17416000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Acessar a Listagem",
+            "result": {
+              "status": "passed",
+              "duration": 11568000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Devo visualizar a listagem vazia",
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "listagem;listagem-com-apenas-1-registro",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Listagem com apenas 1 Registro",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "Que o site possui apenas 1 registro",
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "Acessar a listagem",
+            "result": {
+              "status": "passed",
+              "duration": 1979000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Devo visualizar a listagem com apenas 1 registro",
+            "result": {
+              "status": "passed",
+              "duration": 148000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
