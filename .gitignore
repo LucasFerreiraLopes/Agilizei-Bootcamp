@@ -4,7 +4,7 @@ mochawesome-report
 
 #relatorios cucumber
 cypress/reports/index.html
-cypress/reports/cucumber_report.html.json
+cypress/reports/index.html.json
 cypress/reports/cucumber-json/**
 
 #videos
